@@ -1,0 +1,141 @@
+*{
+  list-style:none
+}
+
+/*  prime styles  */
+
+:root {
+  --color-tex-primary: #212121;
+  --color-text-secundary:#757575;
+  --accent-color:#2196F3;
+  --primary-background-color:#FFFFFF;
+  --secundary-background-color: #2F303A;
+}
+
+/* body */
+
+.body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  color: var(--color-tex-primary);
+  background-color: var(--primary-background-color);
+}
+
+/*  main */
+
+.main-section{
+  color: var(--primary-background-color);
+  background-color: var(--secundary-background-color);
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.secondary-degree{
+text-align: center;
+}
+
+.text{
+  color: var(--color-text-secundary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.title-advantages{
+color: var(--color-tex-primary);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.title-name{
+  color: var(--color-tex-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.title{
+  color: var(--color-tex-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+}
+
+
+/* buttons */
+
+.button{
+  cursor: pointer;
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border:rgba(33, 150, 243, 1);
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+font-family: 'Roboto';
+font-style: normal;
+}
+
+.buttons{
+  cursor: pointer;
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color:var(--color-tex-primary);
+}
+
+.buttons:hover{
+  background-color: var(--accent-color);
+  color:var(--primary-background-color);
+}
+
+/*  header - footer */
+
+.menu-list{
+  color: var(--color-tex-primary);
+  text-decoration: none;
+}
+
+.menu-list:hover{
+  color: var(--accent-color);
+}
+
+.logo-link{
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.link-contact-f{
+  text-decoration: none;
+  color:var(--primary-background-color);
+}
+
+.link-contact-f:hover{
+  color:var(--accent-color);
+}
+
+.contact{
+  background-color: var(--secundary-background-color);
+}
+
+.link-contact-h{
+  color: var(--color-text-secundary);
+  text-decoration: none;
+}
+
+.link-contact-h:hover{
+  color:var(--accent-color);
+}
