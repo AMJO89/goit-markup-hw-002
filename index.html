@@ -11,84 +11,85 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <!--Externo-->
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styless.css" />
   </head>
   <body class="body">
-    <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="logo-link">WebStudio</a>
-        <ul>
-          <li>
-            <a href="./Study.html" class="menu-list" rel="noopener noreferrer"
-              >Study</a
-            >
-          </li>
-          <li>
-            <a
-              href="./briefcase.html"
-              class="menu-list"
-              rel="noopener noreferrer"
-              >Briefcase</a
-            >
-          </li>
-          <li>
-            <a
-              href="./contacts.html"
-              class="menu-list"
-              rel="noopener noreferrer"
-              >Contacts</a
-            >
-          </li>
-        </ul>
+    <header class="box-header">
+      <nav>
+        <a href="./index.html" class="logo">WebStudio</a>
       </nav>
-      <ul>
+      <ul class="menu-nav">
         <li>
-          <a href="mailto:info@devstudio.com" class="link-contact-h"
+          <a href="./Study.html" class="menu-list" rel="noopener noreferrer"
+            >Study</a
+          >
+        </li>
+        <li>
+          <a href="./briefcase.html" class="menu-list" rel="noopener noreferrer"
+            >Briefcase</a
+          >
+        </li>
+        <li>
+          <a href="./contacts.html" class="menu-list" rel="noopener noreferrer"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+      <ul class="contact-nav">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-h"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="phone:+52 55 5529 6000" class="link-contact-h"
+          <a href="phone:+52 55 5529 6000" class="contact-h"
             >+52 55 5529 6000</a
           >
         </li>
       </ul>
     </header>
-    <main>
-      <section class="main-section">
+    <div class="line"></div>
+    <main class="box-main">
+      <section class="main-tittle">
         <ul>
-          <li><h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1></li>
+          <li class="tittle"><h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1></li>
           <li>
             <input type="button" value="Request our service" class="button" />
           </li>
         </ul>
       </section>
-      <section>
+      <section class="main-advantages" class="container">
         <h2 style="display: none">Nuestras ventajas</h2>
-        <ul>
-          <li>
+        <ul class="ul-advantages">
+          <li class="li-advantages">
             <h3 class="title-advantages">ATTENTION TO DETAILS</h3>
             <p class="text">
               We delve into all the details and processes of your business, in
               order to develop a customized solution.
             </p>
           </li>
-          <li>
+          <li class="li-advantages">
             <h3 class="title-advantages">PUNTUALITY</h3>
             <p class="text">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
-          <li>
+          <li class="li-advantages">
             <h3 class="title-advantages">PLANNING</h3>
             <p class="text">
               You will be able to observe and participate in every phase of the
               development and application of solutions.
             </p>
           </li>
-          <li>
+          <li class="li-advantages">
             <h3 class="title-advantages">MODERN TECHNOLOGY</h3>
             <p class="text">
               We use innovative tools to solve assigned tasks. It's time to
@@ -97,9 +98,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="secondary-degree">What do we do</h2>
-        <ul>
+      <section class="main-what">
+        <h2>What do we do</h2>
+        <ul class="container">
           <li>
             <img
               src="./Img/teclado.jpg"
@@ -126,9 +127,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="secondary-degree">Our team</h2>
-        <ul>
+      <section class="main-our">
+        <h2>Our team</h2>
+        <ul class="container">
           <li>
             <img
               src="./Img/Andrés Cubo.jpg"
@@ -136,8 +137,8 @@
               height="260"
               alt="Andres Cubo"
             />
-            <h3 class="title-name">Andrés Cubo</h3>
-            <p class="text">Product Designer</p>
+            <h3>Andrés Cubo</h3>
+            <p>Product Designer</p>
           </li>
           <li>
             <img
@@ -146,9 +147,8 @@
               height="260"
               alt="Carla Palacios"
             />
-            <h3 class="title-name">Carla Palacios</h3>
-            <p class="text">Front End Developer</p>
-            />
+            <h3>Carla Palacios</h3>
+            <p>Front End Developer</p>
           </li>
           <li>
             <img
@@ -157,8 +157,8 @@
               height="260"
               alt="Mario Dorado"
             />
-            <h3 class="title-name">Mario Dorado</h3>
-            <p class="text">Marketing</p>
+            <h3>Mario Dorado</h3>
+            <p>Marketing</p>
           </li>
           <li>
             <img
@@ -167,32 +167,32 @@
               height="260"
               alt="Pablo Mijangos"
             />
-            <h3 class="title-name">Pablo Mijangos</h3>
-            <p class="text">UI Designer</p>
+            <h3>Pablo Mijangos</h3>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="contact">
-      <a href="#" class="logo-link">WebStudio </a>
+    <footer class="box-footer" class="container">
+      <a href="#" class="logo">WebStudio</a>
       <address>
         <ul>
           <li>
             <a
               href="#"
-              class="link-contact-f"
+              class="contact-f1"
               target="_blank"
               rel="noopener noreferrer"
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
           <li>
-            <a href="mailto:info@example.com" class="link-contact-f"
+            <a href="mailto:info@example.com" class="contact-f"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+52 55 5529 6000" class="link-contact-f"
+            <a href="tel:+52 55 5529 6000" class="contact-f"
               >+52 55 5529 6000</a
             >
           </li>
